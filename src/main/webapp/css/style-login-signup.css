@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 20, 2022, 5:29:58 PM
+    Author     : LeeJaeLee
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  /* border: 1px solid black; */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(120deg, pink, #2980b9);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#login {
+  width: 400px;
+  background-color: lavender;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  margin: 100px auto;
+  padding: 0px 10px 10px 10px;
+}
+
+#login h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#form #username,
+#form #password,
+#form #password1 {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+#form {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#btn-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-form .btn-log {
+  flex-basis: 49%;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#btn-form .btn-log:hover,
+#btn-form .btn-exit:hover,
+.sign-up:hover {
+  background-color: pink;
+}
+
+#btn-form .btn-exit {
+  flex-basis: 49%;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.sign-up {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.sign-up a {
+  color: black;
+}
+
+.btn-exit a {
+  color: black;
+}
+
+.mes-loi {
+  margin-top: 10px;
+}
+
+.invalid {
+  color: red;
+}
